@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hotel Rooms — Standard · Deluxe · Suite</title>
+   <link rel="stylesheet" href="room.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Choose your room</h1>
+      <p>Comfortable stays — pick between Standard, Deluxe and Suite</p>
+    </header>
+
+    <section class="grid">
+      <!-- Standard -->
+      <article class="card" aria-labelledby="std-title">
+        <div class="media">
+          <img src="images/standardroom.jpg" alt="Standard room with bed and lamp">
+        </div>
+        <div class="body">
+          <div class="title-row">
+            <h2 id="std-title" class="room-title">Standard Room</h2>
+            
+            <div class="price">₹2,000 / 12 hrs.</div>
+          </div>
+          <p class="desc">A cozy room with a comfortable double bed, work desk and free Wi-Fi — ideal for short stays.</p>
+          <div class="features" aria-hidden="true">
+            <div class="feature">Free Wi-Fi</div>
+            <div class="feature">Non-AC</div>
+            <div class="feature">Double bed</div>
+          </div>
+          <div class="actions" role="group" aria-label="Standard room actions">
+            <button onclick="window.location.href='book.html'" class="btn btn-primary">Book now</button>
+            <button onclick="window.location.href='standarddetail.html'" class="btn btn-secondary">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Deluxe -->
+      <article class="card" aria-labelledby="del-title">
+        <div class="media">
+          <img src="images/deluxroom.jpg" alt="Deluxe room interior with seating">
+        </div>
+        <div class="body">
+          <div class="title-row">
+            <h2 id="del-title" class="room-title">Deluxe Room</h2>
+         
+            <div class="price">₹3,500 / 12 hrs.</div>
+          </div>
+          <p class="desc">More space, finer finishes and a seating area — great for weekends or longer stays.</p>
+          <div class="features" aria-hidden="true">
+            <div class="feature">Seating area with 2 Bed</div>
+            <div class="feature">City view</div>
+            <div class="feature">Attached Bathroom facility</div>
+            <div class="feature">AC</div>
+          </div>
+          <div class="actions">
+            <button onclick="window.location.href='book.html'" class="btn btn-primary">Book now</button>
+            <button onclick="window.location.href='Deluxdetail.html'" class="btn btn-secondary">Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Suite -->
+      <article class="card" aria-labelledby="suite-title">
+        <div class="media">
+          <img src="images/suiteroom.jpg" alt="Luxury suite with lounge area">
+        </div>
+        <div class="body">
+          <div class="title-row">
+            <h2 id="suite-title" class="room-title">Suite</h2>
+            
+            <div class="price">₹5,000 / 12 hrs.</div>
+          </div>
+          <p class="desc">Spacious suite with separate living area, luxury amenities and premium city or sea views.</p>
+          <div class="features" aria-hidden="true">
+            <div class="feature">Living room with AC</div>
+            <div class="feature">Breakfast included</div>
+            <div class="feature">Seperate Seating area</div>
+            <div class="feature">Premium amenities</div>
+          </div>
+          <div class="actions">
+            <button onclick="window.location.href='book.html'" class="btn btn-primary">Book now</button>
+            <button  onclick="window.location.href='Suitedetail.html'"class="btn btn-secondary">Details</button>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    
+  </div>
+</body>
+</html>

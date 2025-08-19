@@ -1,0 +1,72 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('images/backgrounds.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden; /* Scroll remove */
+        }
+
+        .center-box {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2); /* Transparent */
+            backdrop-filter: blur(10px);
+            padding: 20px; /* Thoda chhota padding */
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            max-width: 620px; /* Chhota width */
+            width: 90%;
+        }
+
+       .hotel-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #0000FF, #FFD700);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+        .tagline {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: #FF4500;
+        }
+
+        .hotel-img {
+            display: block;
+            margin: 0 auto 15px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+       .btn {
+    background: linear-gradient(to right, #FFD700, #FF4500);
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+        }
